@@ -1,0 +1,1 @@
+run = "set -e; csc Main.cs; mono Main.exe"
