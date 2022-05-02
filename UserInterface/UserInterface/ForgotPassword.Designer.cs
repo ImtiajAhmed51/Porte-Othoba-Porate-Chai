@@ -112,7 +112,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Trebuchet MS", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(190, 597);
+            this.button2.Location = new System.Drawing.Point(172, 591);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 66);
             this.button2.TabIndex = 18;
@@ -153,7 +153,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel2.Location = new System.Drawing.Point(177, 554);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(174, 5);
+            this.panel2.Size = new System.Drawing.Size(150, 5);
             this.panel2.TabIndex = 13;
             // 
             // panel3
@@ -169,12 +169,12 @@
             this.txtCode.BackColor = System.Drawing.Color.White;
             this.txtCode.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCode.Enabled = false;
-            this.txtCode.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCode.Font = new System.Drawing.Font("Trebuchet MS", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCode.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtCode.Location = new System.Drawing.Point(177, 509);
+            this.txtCode.Location = new System.Drawing.Point(190, 512);
             this.txtCode.MaxLength = 6;
             this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(174, 32);
+            this.txtCode.Size = new System.Drawing.Size(122, 32);
             this.txtCode.TabIndex = 11;
             this.txtCode.Tag = "";
             // 

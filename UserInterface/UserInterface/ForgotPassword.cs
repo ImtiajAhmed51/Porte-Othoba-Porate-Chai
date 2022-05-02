@@ -69,14 +69,14 @@ namespace UserInterface
                         try
                         {
                             smtp.Send(message);
-                            MessageBox.Show("       Code send successfully.     \n              Please check your mail!       ");
+                            MessageBox.Show("        Code send successfully.\n        Please check your mail!         ");
                             button2.Enabled = true;
                             txtCode.Enabled = true;
 
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show(ex.Message);
+                            MessageBox.Show("       "+ex.Message+ "\n       Please check your internet connection and try again!!       ");
                         }
                     }
                     else
